@@ -6,9 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-# https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-2.2.0-cp37-cp37m-manylinux2010_x86_64.whl
 tensorflow = "*"
 src = {editable = true,path = "src"}
+jupyter = "*"
 
 [requires]
 python_version = "3.7"
